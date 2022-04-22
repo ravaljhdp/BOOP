@@ -2,12 +2,13 @@
 #include<conio.h>
 int main()
 {
+clrscr();
 int x,y;
-cout<<"enter x";
+cout<<"enter the value of x";
 cin>>x;
-cout<<"enter y";
+cout<<"enter the value of y";
 cin>>y;
-cout<<"multiplication of:"<<(x*y);
+cout<<"division of"<<(x/y);
 getch();
 return 0;
 }
